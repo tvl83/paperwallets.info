@@ -1,0 +1,29 @@
+{
+  "name": "paperwallets.info",
+  "version": "1.0.0",
+  "description": "Open Source JavaScript Client-Side Cryptocoin Wallet Generator",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-combine": "~0.8.3",
+    "grunt-lineending": "~0.2.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-combine": "~0.8.3",
+    "grunt-lineending": "~0.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tvl83/paperwallets.info.git"
+  },
+  "keywords": [
+    "bitcoin cryptocurrency crypto address paperwallet paper wallet generator"
+  ],
+  "author": "pointbiz",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/tvl83/paperwallets.info/issues"
+  }
+}
