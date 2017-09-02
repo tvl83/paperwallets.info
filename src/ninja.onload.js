@@ -39,7 +39,7 @@ for(i = 0; i < janin.currencies.length; i++) {
     currencieslist += "<a href='?currency="+janin.currencies[i].name;
     if (ninja.getQueryString()["culture"] != undefined)
         currencieslist += "&culture=" + ninja.getQueryString()["culture"];
-	currencieslist += "'>"+janin.currencies[i].name+"</a> ";
+	currencieslist += "'>"+janin.currencies[i].name+"</a> | ";
     j++;
 }
 supportedcurrencies.innerHTML = currencieslist;
